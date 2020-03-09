@@ -1,0 +1,71 @@
+.water-logo
+{
+    margin-left:36px; 
+    margin-top: -27px;
+}
+.water-nav{
+    background-color:#54CDC0;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 60px;
+}
+.water-left-nav:hover{
+    width: 98%;
+    border-bottom: solid 2px #05BDA5;
+    border-top:solid 2px #05BDA5;
+    margin-left: 1%;
+}
+.water-sreach-con{
+    max-width:370px;
+    margin-top: 6px; 
+    height:35px;
+    margin-left:215px;
+    background-color:gainsboro;
+}
+.water-cart{
+    font-size: 14px;
+    color: black;
+    width: 100%;
+}
+.water-cart-img
+{
+   width: 24px;
+    height: 24px;
+    margin-top: 2px;       
+}
+.water-cart-text{
+    color: white;
+    margin-left: 4px;
+}
+.water-button{
+    width:150px; 
+} 
+.water-left-nav-txt{
+    margin-left:20px; 
+    font-size: 18px;
+    color: black;
+    font-weight: 500; 
+}
+.water-left-nav-img{
+     width: 40px;
+    height: 52px; 
+}
+.water-left-nav-txt2{
+   font-size: 14px;
+    color: #05BDA5;
+    display: block;
+    margin-top: -15px;
+    margin-left: 30%;
+}
+.foot-li{
+    color:white;
+}
+.foot-li:hover{
+    text-decoration:none;
+    color:white;
+}
+
+    
+.water-left-nav{
+    width: 98%;
+    margin-left: 1%;
+}

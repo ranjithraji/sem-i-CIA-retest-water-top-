@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+
+    <title>WATER TAP</title>
+      <style>
+          input[type='text'],
+                input[type='number'],
+                input[type='password'],
+                textarea {
+                    outline: none;
+                    box-shadow:none !important;
+                    border:gray; 
+            }
+          button{
+                  outline: none;
+                    box-shadow:none !important;
+                    border:gray; 
+              
+          }
+          .card:hover{
+            box-shadow:5px 5px 5px gray;    
+          }
+     
+      </style>
+  </head>
+    <body class="font-family:Lato;">
+    <!-- Image and text -->
+      <div class="container-grid" style="height:3px;">
+      <nav class="water-nav navbar navbar-light " id="nav" style="">
+          <div class="row">
+            <div class="col-1">
+                <a class="navbar-brand" href="#">
+                 <img src="image/meaticon.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                    <span><h5 class="water-logo" style="">Water Tap</h5></span>
+                </a>
+              </div>
+              <div class="col-5">
+                  <!--img src="image/Rectangle2.png" style="width: 400px;margin-top: 6px; height:35px;margin-left: 300px;"=-->
+                  <div class="water-sreach-con input-group mb-3" style="" >
+                        <div class="input-group-prepend">
+                                <button class="btn btn-outline-secondary" type="button" style="background-color:gainsboro; border:none;"><img width="20px" src="image/24px.svg" aria-describedby="basic-addon1" data-toggle="modal" data-target="#exampleModal"></button>
+                        </div>
+                        <input type="text" class="form-control" style="background-color:gainsboro;" placeholder="Search" aria-label="" >
+                  </div>
+              </div>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+      <div class="water-sreach-con input-group mb-3" style="" >
+                        <div class="input-group-prepend">
+                                <button class="btn btn-outline-secondary" type="button" style="background-color:gainsboro; border:none;"><img width="20px" src="image/24px.svg"></button>
+                        </div>
+                        <input type="text" class="form-control" style="background-color:gainsboro;" placeholder="Search" >
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+              <div class="col-1" style="margin-left:200px; margin-top:13px;">
+                  <h3 class="water-cart">
+                      <span>
+                          <img src="image/cart.png" class="water-cart-img">
+                      </span>
+                      <span class="water-cart-text" style="">Cart
+                      </span></h3>
+              </div>
+              <div class="col-2" style="">
+                    <button type="button" class="water-button btn btn-light text-dark" style="margin-left: 3%; margin-top: 2%;" data-toggle="modal" data-target="#exampleModalLong" >Login</button>
+              </div>
+              <div class="col-2" style="margin-left:86%; margin-top: -4%;">
+                  <button type="button" class="water-button btn btn-light text-dark" style="" data-toggle="modal" data-target="#exampleModalLong1">SIGNUP</button>
+              </div>
+          </div>
+      </nav>
+   </div>
+      <!------------------navbar end------------------------->
+        <!---login---->
+<!-- Modal -->
+<div class="conatiner">
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" style="float: right; margin-top:-29px; padding-left: 64%; height: auto;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="border:0px;">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times; ESC</span>
+        </button>
+      </div>
+      <div class="modal-body row" style="padding:5%; margin-left:40px;">
+          <div class="col-6">
+     <h5 class="modal-title" style="" id="exampleModalLongTitle">LOGIN</h5>
+              <h6 style="font-size: 14px; color:skyblue; font-weight:500; "><span style="color:black;"> or</span><a href="" data-toggle="modal" data-target="#exampleModalLong1" >Create an account</a></h6>
+          </div>
+          <div class="col-6">
+          <img src="image/image%209.png" style="width: 77px; height: 112px; margin-top: -22px; ">
+          </div>
+            <div class="container">
+      <input type="text" class="form-control" style="border:solid 1px gray;" placeholder="Phone Number" name="uname" required>
+                <br>
+      <input type="password" class="form-control" style="border:solid 1px gray;" placeholder="Password" name="psw" required>
+                <br>
+        
+      <button  class="water-button btn btn-primary "type="submit">Login</button>
+    </div>
+        
+      </div>
+    </div>
+</div>
+    </div>
+    <div class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" style="float: right; margin-top:-29px; padding-left: 64%; height: auto;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="border:0px;">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times; ESC</span>
+        </button>
+      </div>
+      <div class="modal-body row" style="padding:5%; margin-left:40px;">
+          <div class="col-6">
+     <h5 class="modal-title" style="" id="exampleModalLongTitle">SIGN IN</h5>
+              <h6 style="font-size: 14px; color:skyblue; font-weight:500; "><span style="color:black;"> or</span><a href="" data-toggle="modal" data-target="#exampleModalLong" >Login to your account</a></h6>
+          </div>
+          <div class="col-6">
+          <img src="image/image%209.png" style="width: 77px; height: 112px; margin-top: -22px; ">
+          </div>
+            <div class="container">
+      <input type="text" class="form-control" style="border:solid 1px gray;" placeholder="Phone number" name="uname" required>
+                <br>
+        <input type="text" class="form-control" style="border:solid 1px gray;" placeholder="Name" name="uname" required>
+                <br>
+    <input type="email" class="form-control" style="border:solid 1px gray;" placeholder="email" name="uname" required>
+                <br>
+      <input type="password" class="form-control" style="border:solid 1px gray;" placeholder="Password" name="psw" required>
+                <br>
+        
+      <button  class="water-button btn btn-primary " id="modal1-btn" type="submit" data-toggle="modal" data-target="#exampleModalLong" >CONTINUE</button>
+    </div>
+        
+      </div>
+    </div>
+</div>
+        </div>
+        </div>
+
+    <!------------------------Slick slider-------------------->
+    <div class="container-fluid"style=" background-color:#0B0F39; width:100%;" >
+          <section class="regular autoPlay slider" style="padding:10px;">
+              <div>
+                  <img src="image/Frame%203.png">
+              </div>
+              <div>
+                  <img src="image/image%206.png">
+              </div>
+              <div>
+                  <img src="image/Frame%203.png">
+              </div>
+              <div>
+                 <img src="image/image%206.png">
+              </div>
+              <div>
+                  <img src="image/Frame%203.png">
+              </div>
+              <div>
+                  <img src="image/image%206.png">
+              </div>
+        </section>
+      </div>
+        <!---slick end----->
+        
+        
+        <!-------gallery---->
+        <div class="conatiner-grid" style="border:1px solid rgba(0,0,0,0.25); ">
+            <div class="row">
+                <div class="col-3" style="border-right:1px solid rgba(0,0,0,0.25); padding-top:5%;  ">
+                    <div class="container-grid" style="width:85%; margin-left:10%; border:1px solid rgba(0,0,0,0.25);">
+                        <div class="row water-left-nav" id="l1"  style="padding:2%;">
+                            <h3 class="water-left-nav-txt">
+                            <span><img class="water-left-nav-img" src="image/image%2011.png"></span>
+                            <span>Offers Near You</span>
+                            <span class="water-left-nav-txt2">option</span>
+                            </h3>
+                        </div>
+                        <div class="row water-left-nav" id="l2"  style="padding:2%;">
+                            <h3 class="water-left-nav-txt">
+                            <span><img class="water-left-nav-img" src="image/image%2012.png"></span>
+                            <span>Express Delivery</span>
+                            <span class="water-left-nav-txt2">option</span>
+                            </h3>
+                        </div>
+                        <div class="row water-left-nav" id="l3" style="padding:2%;">
+                            <h3 class="water-left-nav-txt">
+                            <span><img class="water-left-nav-img" src="image/image%2013.png"></span>
+                            <span>Only on Us</span>
+                            <span class="water-left-nav-txt2">option</span>
+                            </h3>
+                        </div>
+                        <div class="row water-left-nav" id="l4"  style="padding:2%;">
+                            <h3 class="water-left-nav-txt">
+                            <span><img class="water-left-nav-img" src="image/image%2014.png"></span>
+                            <span>Pocket Friendly</span>
+                            <span class="water-left-nav-txt2">option</span>
+                            </h3>
+                        </div>
+                        <div class="row water-left-nav" id="l5" style="padding:2%;">
+                            <h3 class="water-left-nav-txt">
+                            <span><img class="water-left-nav-img" src="image/image%2015.png"></span>
+                            <span>Specail Offers</span>
+                            <span class="water-left-nav-txt2">option</span>
+                            </h3>
+                        </div>
+                        <div class="row water-left-nav" id="l6"   style="padding:2%;">
+                           <a href="#footer" onclick="topFunction();" style="text-decoration: none;"> <h3 class="water-left-nav-txt">
+                                <div style="width: 40px; height:40px;  background-color: white; border-radius: 20px; border:solid 1px black; display: inline;">
+                                    <img class="water-left-nav-img" src="image/Arrow%201.png" style="width: 20px; height:20px;"></div>
+                            <span>See ALl</span>
+                            <span class="water-left-nav-txt2" style="margin-top: -2px;">option</span>
+                            </h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9">
+                     <div class="conatiner-grid row">
+                            <div class="col col-md-3">
+                                <div class="card" style="width:13rem;margin:20px 0 24px 0">
+                                    <img class="card-img-top" src="image/bis-1.png" alt="image" style="width:100%">
+                                    <div class="card-body">
+                                     
+                                      <p class="card-text">Bisilery 250ml purified water.</p>
+                                      <h4 class="card-title">Rs 20</h4>
+                                      <a href="javascript:void(0)" style="margin-left: 24px;"class="btn btn-primary">ADD TO CART</a>
+                                    </div>
+                                  </div></div>
+                                  <div class="col col-md-3"><div class="card" style="width:13rem;margin:20px 0 24px 0">
+                                        <img class="card-img-top" src="image/bis-1.png" alt="image" style="width:100%">
+                                        <div class="card-body">
+                                         
+                                          <p class="card-text">Bisilery 250ml purified water.</p>
+                                          <h4 class="card-title">Rs 20</h4>
+                                          <a href="javascript:void(0)" style="margin-left: 24px;"class="btn btn-primary">ADD TO CART</a>
+                                        </div>
+                                      </div></div>
+                                      <div class="col col-md-3"><div class="card" style="width:13rem;margin:20px 0 24px 0">
+                                            <img class="card-img-top" src="image/bis-1.png" alt="image" style="width:100%">
+                                            <div class="card-body">
+                                             
+                                              <p class="card-text">Bisilery 250ml purified water.</p>
+                                              <h4 class="card-title">Rs 20</h4>
+                                              <a href="javascript:void(0)" style="margin-left: 24px;"class="btn btn-primary">See Profile</a>
+                                            </div>
+                                          </div></div>
+                                          <div class="col col-md-3"><div class="card" style="width:13rem;margin:20px 0 24px 0">
+                                                <img class="card-img-top" src="image/bis-1.png" alt="image" style="width:100%">
+                                                <div class="card-body">
+                                                 
+                                                  <p class="card-text">Bisilery 250ml purified water.</p>
+                                                  <h4 class="card-title">Rs 20</h4>
+                                                  <a href="javascript:void(0)" style="margin-left: 24px;"class="btn btn-primary">ADD TO CART</a>
+                                                </div>
+                                              </div></div>
+                        </div>
+                        <div class="row">
+                                <div class="col col-md-3"><div class="card" style="width:13rem;margin:20px 0 24px 0">
+                                        <img class="card-img-top" src="image/bis-1.png" alt="image" style="width:100%">
+                                        <div class="card-body">
+                                         
+                                          <p class="card-text">Bisilery 250ml purified water.</p>
+                                          <h4 class="card-title">Rs 20</h4>
+                                          <a href="javascript:void(0)" style="margin-left: 24px;"class="btn btn-primary">ADD TO CART</a>
+                                        </div>
+                                      </div></div>
+                                      <div class="col col-md-3"><div class="card" style="width:13rem;margin:20px 0 24px 0">
+                                            <img class="card-img-top" src="image/bis-1.png" alt="image" style="width:100%">
+                                            <div class="card-body">
+                                             
+                                              <p class="card-text">Bisilery 250ml purified water.</p>
+                                              <h4 class="card-title">Rs 20</h4>
+                                              <a href="javascript:void(0)" style="margin-left: 24px;"class="btn btn-primary">ADD TO CART</a>
+                                            </div>
+                                          </div></div>
+                                          <div class="col col-md-3"><div class="card" style="width:13rem;margin:20px 0 24px 0">
+                                                <img class="card-img-top" src="image/bis-1.png" alt="image" style="width:100%">
+                                                <div class="card-body">
+                                                 
+                                                  <p class="card-text">Bisilery 250ml purified water.</p>
+                                                  <h4 class="card-title">Rs 20</h4>
+                                                  <a href="javascript:void(0)" style="margin-left: 24px;"class="btn btn-primary">ADD TO CART</a>
+                                                </div>
+                                              </div></div>
+                                              <div class="col col-md-3"><div class="card" style="width:13rem;margin:20px 0 24px 0">
+                                                    <img class="card-img-top" src="image/bis-1.png" alt="image" style="width:100%">
+                                                    <div class="card-body">
+                                                     
+                                                      <p class="card-text">Bisilery 250ml purified water.</p>
+                                                      <h4 class="card-title">Rs 20</h4>
+                                                      <a href="javascript:void(0)" style="margin-left: 24px;"class="btn btn-primary">ADD TO CART</a>
+                                                    </div>
+                                                  </div></div>
+                            </div>
+
+                </div>
+            </div>
+        </div>
+        <footer class="container-fulid" style="background-color: #05BDA5; margin-top:auto; " id="footer">
+            <div class="row">
+                <div clas="col-3" style="margin-left:5%; margin-right:5%;  ">
+                    <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                </div> <div clas="col-3" style="margin-left:5%; margin-right:5%;  ">
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                </div> <div clas="col-3" style="margin-left:5%; margin-right:5%;  ">
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                </div> <div clas="col-3" style="margin-left:5%; margin-right:5%;  ">
+                    <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                     <a class="foot-li"href="#"><h6>Coffee</h6></a>
+                </div>
+            </div>
+        </footer>
+        
+        
+         <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+      <script src="css/slick.js" type="text/javascript" charset="utf-8"></script>
+       <script>
+         var len= document.querySelectorAll(".water-left-nav").lenght;
+           document.querySelectorAll(".water-left-nav").addEventListener("onmouseover",function(){
+               for(var i=0;i<len;i++){
+                   document.getElementsByClassName("water-left-nav").style.borderBottom="solid 2px #05BDA5;"
+                   document.getElementsByClassName("water-left-nav").style.borderTop="solid 2px #05BDA5;"
+           }
+           });
+            document.querySelectorAll(".water-left-nav").addEventListener("onmouseout",function(){
+               for(var i=0;i<len;i++){
+                   document.getElementsByClassName("water-left-nav").style.borderBottom="solid 0px #05BDA5;"
+                   document.getElementsByClassName("water-left-nav").style.borderTop="solid 0px #05BDA5;"
+           }
+           }
+           function topFunction() {
+               document.documentElement.scrollByLines=100000;
+           }
+        </script>
+        <script>
+          $('document').ready(function(){
+               $(".autoPlay").slick({
+                slidesToShow:4,
+                slidesToScroll:1,
+                autoplay:true,
+                autoplaySpeed: 2000,
+            });
+            $(".regular").slick({
+                dots: true,
+                 infinite: true,
+                 slidesToShow:4,
+                 slidesToScroll:1,
+             });
+                
+          });
+             $(document).keyup(function (e) { //action when magnified image is clicked on
+            if (e.keyCode == 27) { //escape key 
+                    window.location.reload(); 
+            }
+          });
+      </script>
+    </body>
+</html>
